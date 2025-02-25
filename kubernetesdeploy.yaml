@@ -18,7 +18,7 @@ spec:
       - name: medicure-eta-container
         image: vijethaa/medicure-eta-app
         ports:
-        - containerPort: 8082
+        - containerPort: 8081
 ---
 apiVersion: v1
 kind: Service
